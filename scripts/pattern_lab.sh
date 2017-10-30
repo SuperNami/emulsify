@@ -5,7 +5,10 @@
 rm -rf pattern-lab
 
 # Install PL
-composer create-project -n pattern-lab/edition-twig-standard pattern-lab
+# composer create-project -n pattern-lab/edition-twig-standard pattern-lab
+
+# Clone PL
+git clone https://github.com/pattern-lab/edition-php-twig-standard.git pattern-lab
 
 # Delete the default source directory
 rm -rf pattern-lab/source
